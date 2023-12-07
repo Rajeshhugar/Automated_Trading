@@ -1,0 +1,8 @@
+Link to the blog referenced in the lecture video:
+
+https://pbpython.com/effective-matplotlib.html
+
+
+Matplotlib Tutorial:
+
+https://matplotlib.org/tutorials/introductory/lifecycle.html
