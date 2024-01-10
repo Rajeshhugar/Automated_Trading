@@ -1,0 +1,3 @@
+Link to stocktrend github page
+
+https://github.com/ChillarAnand/stocktrends
