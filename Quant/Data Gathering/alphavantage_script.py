@@ -9,7 +9,7 @@ from alpha_vantage.timeseries import TimeSeries
 import pandas as pd
 import time
 
-key_path = "D:\\Udemy\\Quantitative Investing Using Python\\1_Getting Data\\AlphaVantage\\key.txt"
+key_path = "keys.txt"
 
 # extracting data for a single ticker
 ts = TimeSeries(key=open(key_path,'r').read(), output_format='pandas')
@@ -19,8 +19,7 @@ data = data.iloc[::-1]
 
 
 # extracting stock data (historical close price) for multiple stocks
-all_tickers = ["AAPL","MSFT","CSCO","AMZN","GOOG",
-               "FB","BA","MMM","XOM","NKE","INTC"]
+all_tickers = ["AAPL","MSFT","CSCO","AMZN","GOOG"]
 close_prices = pd.DataFrame()
 api_call_count = 1
 ts = TimeSeries(key=open(key_path,'r').read(), output_format='pandas')

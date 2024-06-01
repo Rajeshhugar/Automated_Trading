@@ -8,6 +8,7 @@
 # Import necesary libraries
 import yfinance as yf
 import numpy as np
+import pandas as pd
 
 # Download historical data for required stocks
 tickers = ["AMZN","GOOG","MSFT"]
@@ -34,4 +35,5 @@ def RSI(DF, n=14):
 
 for ticker in ohlcv_data:
     ohlcv_data[ticker]["RSI"] = RSI(ohlcv_data[ticker])
-    
+
+print(ohlcv_data)

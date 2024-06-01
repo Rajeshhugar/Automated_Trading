@@ -23,5 +23,7 @@ for ticker in stocks:
 # looping over tickers and storing OHLCV dataframe in dictionary
 for ticker in stocks:
     ohlcv_data[ticker] = yf.download(ticker,start,end)
+
+print(cl_price)
     
 
