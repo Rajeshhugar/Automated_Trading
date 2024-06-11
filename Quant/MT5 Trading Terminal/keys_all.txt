@@ -1,0 +1,6 @@
+Name: Rajesh Hugar
+Server: MetaQuotes-Demo
+Type: Forex Hedged USD
+Login: 5026232940
+Password: -lCuX1Ko
+Investor: Qs-0CrLv
